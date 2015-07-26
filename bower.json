@@ -1,4 +1,6 @@
 {
+  "name": "POST Logger",
+  "version": "1.0.0",
   "authors": [
     "Gonzalo Ayuso <gonzalo123@gmail.com>"
   ],
