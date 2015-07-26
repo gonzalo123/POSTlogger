@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>POST Logger</title>
+    <link href="assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <script src="js/dumper.js"></script>
+    <script>
+        dumper.startSocketIo('{{ channel }}', '{{ ioServer }}');
+    </script>
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>POST Logger</h1>
+        <p class="lead">Please open javaScript console to see the log</p>
+    </div>
+
+</div>
+</body>
+</html>

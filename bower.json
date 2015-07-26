@@ -1,0 +1,23 @@
+{
+  "authors": [
+    "Gonzalo Ayuso <gonzalo123@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "dumper",
+    "dump"
+  ],
+  "main": [
+    "./dist/dumper.min.js"
+  ],
+  "homepage": "http://gonzalo123.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/assets"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
